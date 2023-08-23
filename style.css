@@ -15,12 +15,17 @@ body {
 }
 
 .logo {
-    font-size: 30px;
-    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    padding-bottom: 0px;
+    font-family: 'Monoton', cursive;
 }
 
 .links {
     text-align: right;
-    margin-left: 80%;
-    
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: 28px;
+    word-spacing: 50px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
