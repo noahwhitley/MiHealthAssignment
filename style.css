@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     height: auto;
-    background-color:lightblue;
+    background-image: url(./images/more-leaves-on-green.png);
+    background-color: #cccccc;
 }
 
 .banner {
-    width: 100%;
+    width: auto;
     background-color: white;
     margin: 0 auto;
     display: flex;
@@ -24,13 +25,16 @@ body {
 .links {
     text-align: right;
     font-size: 20px;
-    margin-left: 55%;
+    margin-left: 45%;
     margin-top: 28px;
     word-spacing: 50px;
     font-weight: 500;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.main {
+    display: inline;
+}
 .mi {
     color: darkred;
 }
@@ -42,4 +46,34 @@ body {
 a {
     color: black;
     text-decoration: none;
+}
+
+.text {
+    display: inline;
+    color: white;
+    display: inline-block;
+    overflow-wrap: break-word;
+    margin-left: 5%;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    inline-size: 500px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 16px;
+}
+
+.arrow {
+    margin-top: 40px;
+    margin-left: 10%;
+    font-weight: 800;
+}
+
+img {
+    display: inline;
 }
