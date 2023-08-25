@@ -117,7 +117,10 @@ span {
 
 .top {
     background-color: white;
-    
+    width: 40%;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
 }
 
 .bottom {
